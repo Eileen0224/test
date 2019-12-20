@@ -1,0 +1,740 @@
+body {
+    font-size: 0.75rem;
+    font-family: 'Noto Sans TC', '微軟正黑體';
+    color: #333333;
+    letter-spacing: 0.2rem;
+    background-color: #fcf9eb;
+}
+
+p {
+    margin-bottom: 0.4rem;
+}
+
+.title {
+    width: 7rem;
+}
+
+.btn-lg {
+    padding: .5rem 3rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+}
+
+.shadow {
+    box-shadow: .3rem .4rem 1rem rgba(35, 24, 21, .75) !important;
+}
+
+.btn-apply {
+    background-color: #478ee2;
+    border-color: #fff;
+    color: white;
+    font-weight: bolder;
+    border-width: 0.24rem;
+    border-radius: 1rem;
+}
+
+.btn-apply:hover {
+    background-color: #3871b8;
+}
+
+.rule,
+.download {
+    padding-top: 3.5%;
+}
+
+.award {
+    padding-top: 5%;
+}
+
+.content {
+    background-color: #fcf9eb;
+    padding: 0 5%;
+    margin-top: -1%;
+}
+
+.rule-content,
+.award-content {
+    margin-left: 0.8rem;
+}
+
+.crown-icon {
+    width: 1.3rem;
+}
+
+.pic-friend {
+    width: 16rem;
+    margin-top: 5%;
+}
+
+
+footer p {
+    font-size: 0.78rem;
+    letter-spacing: 0.5rem;
+    padding-bottom: 1.5%;
+}
+
+footer span {
+    font-size: 0.75rem;
+    letter-spacing: 0.14rem;
+    padding: 0;
+    display: block;
+}
+
+footer span:nth-child(2n+1) {
+    display: none;
+}
+
+footer span:nth-of-type(3) {
+    letter-spacing: 0.005rem;
+}
+
+.chinese {
+    background: url(./img/chinese.png);
+    background-size: cover;
+    transition: .3s;
+}
+
+.chinese:hover {
+    background: url(./img/chinese_hover.png);
+    background-size: cover;
+}
+
+.math {
+    background: url(./img/math.png);
+    background-size: cover;
+    transition: .3s;
+}
+
+.math:hover {
+    background: url(./img/math_hover.png);
+    background-size: cover;
+}
+
+.english {
+    background: url(./img/english.png);
+    background-size: cover;
+    transition: .3s;
+}
+
+.english:hover {
+    background: url(./img/english_hover.png);
+    background-size: cover;
+}
+
+.download {
+    padding: 1.5%;
+}
+
+.download .row {
+    padding-bottom: 2%;
+}
+
+.download a {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    margin: 5% 0;
+}
+
+.online-apply {
+    background-image: url(./img/btn_online_apply.png);
+    background-size: cover;
+    width: 13rem;
+    height: 3.5rem;
+    display: block;
+}
+
+.online-print {
+    background-image: url(./img/btn_print.png);
+    background-size: cover;
+    width: 13rem;
+    height: 3.5rem;
+    display: block;
+}
+
+.traffic {
+    height: 1rem;
+}
+
+.schedule-laptop {
+    display: none;
+}
+
+.schedule-phone {
+    padding-top: 9%;
+}
+
+.web-ls {
+    letter-spacing: 0.0009rem;
+}
+
+.phone-ls {
+    letter-spacing: 0.1rem;
+}
+
+.example {
+    width: 8.3rem;
+    height: 2.3rem;
+    display: block;
+    background-image: url(./img/link_example.png);
+    background-size: cover;
+    transition: .3s;
+    margin: 3% 0;
+}
+
+.example:hover {
+    background-image: url(./img/link_example_hover.png);
+}
+
+.scholarship {
+    width: 10.8rem;
+    height: 2.3rem;
+    display: block;
+    background-image: url(./img/link_money.png);
+    background-size: cover;
+    transition: .3s;
+    margin: 3% 0;
+}
+
+.scholarship:hover {
+    background-image: url(./img/link_money_hover.png);
+}
+
+.awardlist {
+    width: 8.3rem;
+    height: 2.3rem;
+    display: block;
+    background-image: url(./img/link_award.png);
+    background-size: cover;
+    transition: .3s;
+    margin: 3% 0;
+}
+
+.awardlist:hover {
+    background-image: url(./img/link_award_hover.png);
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 0.875rem;
+    }
+
+    .title {
+        width: 10rem;
+    }
+
+    .rule,
+    .award,
+    .download,
+    .schedule-laptop {
+        padding-top: 3.5%;
+    }
+
+    .content {
+        padding: 0 2%;
+    }
+
+    .crown-icon {
+        width: 1.4rem;
+    }
+
+    .rule-content,
+    .award-content {
+        margin-left: 1.3rem;
+    }
+
+    .pic-friend {
+        margin-top: 12%;
+    }
+
+
+    .btn-apply {
+        border-width: 0.27rem;
+    }
+
+    .btn-lg {
+        padding: .5rem 3.5rem;
+        font-size: 1.3rem;
+    }
+
+    .shadow {
+        box-shadow: .35rem .45rem 1rem rgba(35, 24, 21, .75) !important;
+    }
+
+    footer p {
+        font-size: 0.78rem;
+        letter-spacing: 0.5rem;
+        padding-bottom: 0;
+    }
+
+    footer span {
+        font-size: 0.75rem;
+        letter-spacing: 0.14rem;
+        padding: 0;
+        display: inline;
+    }
+
+    footer span:nth-child(2n+1) {
+        display: inline;
+    }
+
+    footer span:nth-of-type(3) {
+        letter-spacing: 0.005rem;
+    }
+
+    .download {
+        padding: 1.5%;
+    }
+
+    .download .row {
+        padding-bottom: 2%;
+    }
+
+    .download a {
+        width: 7rem;
+        height: 7rem;
+        display: block;
+        margin: 5% 0;
+    }
+
+    .online-apply {
+        background-image: url(./img/btn_online_apply.png);
+        background-size: cover;
+        width: 10rem;
+        height: 2.6rem;
+        display: block;
+    }
+
+    .online-print {
+        background-image: url(./img/btn_print.png);
+        background-size: cover;
+        width: 10rem;
+        height: 2.6rem;
+        display: block;
+    }
+
+    .traffic {
+        height: 1rem;
+    }
+
+    .schedule-laptop {
+        display: block;
+    }
+
+    .schedule-phone {
+        display: none;
+    }
+
+    .example {
+        width: 8.3rem;
+        height: 2.3rem;
+        display: block;
+        background-image: url(./img/link_example.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .example:hover {
+        background-image: url(./img/link_example_hover.png);
+    }
+
+    .scholarship {
+        width: 10.8rem;
+        height: 2.3rem;
+        display: block;
+        background-image: url(./img/link_money.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .scholarship:hover {
+        background-image: url(./img/link_money_hover.png);
+    }
+
+    .awardlist {
+        width: 8.3rem;
+        height: 2.3rem;
+        display: block;
+        background-image: url(./img/link_award.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .awardlist:hover {
+        background-image: url(./img/link_award_hover.png);
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .rule,
+    .award,
+    .download,
+    .schedule-laptop {
+        padding-top: 3.5%;
+    }
+
+    .crown-icon {
+        width: 1.5rem;
+    }
+
+    .content {
+        padding: 0 2%;
+    }
+
+    .rule-content,
+    .award-content {
+        margin-left: 1rem;
+    }
+
+    .pic-friend {
+        margin-top: 12%;
+    }
+
+    .btn-apply {
+        border-width: 0.27rem;
+    }
+
+    .btn-lg {
+        padding: .5rem 3.5rem;
+        font-size: 1.3rem;
+    }
+
+    .shadow {
+        box-shadow: .35rem .45rem 1rem rgba(35, 24, 21, .75) !important;
+    }
+
+    footer p {
+        font-size: 0.78rem;
+        letter-spacing: 0.5rem;
+        line-height: 1.5;
+    }
+
+    footer span {
+        font-size: 0.75rem;
+        letter-spacing: 0.14rem;
+        padding: 0;
+    }
+
+    footer span:nth-of-type(3) {
+        letter-spacing: 0.005rem;
+    }
+
+    .download {
+        padding: 1.5%;
+    }
+
+    .download .row {
+        padding-bottom: 2%;
+    }
+
+    .download a {
+        width: 8rem;
+        height: 8rem;
+        display: block;
+        margin: 5% 0;
+    }
+
+    .online-apply {
+        background-image: url(./img/btn_online_apply.png);
+        background-size: cover;
+        width: 13.375rem;
+        height: 3.5rem;
+        display: block;
+    }
+
+    .online-print {
+        background-image: url(./img/btn_print.png);
+        background-size: cover;
+        width: 13.375rem;
+        height: 3.5rem;
+        display: block;
+    }
+
+    .traffic {
+        height: 1.2rem;
+    }
+
+    .web-ls {
+        letter-spacing: 0.05rem;
+    }
+
+    .example {
+        width: 9rem;
+        height: 2.5rem;
+        display: block;
+        background-image: url(./img/link_example.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .example:hover {
+        background-image: url(./img/link_example_hover.png);
+    }
+
+    .scholarship {
+        width: 11.7rem;
+        height: 2.5rem;
+        display: block;
+        background-image: url(./img/link_money.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .scholarship:hover {
+        background-image: url(./img/link_money_hover.png);
+    }
+
+    .awardlist {
+        width: 9rem;
+        height: 2.5rem;
+        display: block;
+        background-image: url(./img/link_award.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .awardlist:hover {
+        background-image: url(./img/link_award_hover.png);
+    }
+
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.0625rem;
+    }
+
+    .title {
+        width: 13rem;
+    }
+
+    .rule,
+    .award,
+    .schedule-laptop {
+        padding-top: 3.5%;
+    }
+
+    .rule-content,
+    .award-content {
+        margin-left: 1.7rem;
+    }
+
+    .crown-icon {
+        width: 1.6875rem;
+    }
+
+    .content {
+        padding: 0 5%;
+        margin-top: -2%;
+    }
+
+    .pic-friend {
+        margin-top: 4%;
+    }
+
+    .btn-apply {
+        border-width: 0.27rem;
+    }
+
+    .btn-lg {
+        padding: .5rem 4rem;
+        font-size: 1.5rem;
+    }
+
+    .shadow {
+        box-shadow: .4rem .5rem 1rem rgba(35, 24, 21, .75) !important;
+    }
+
+    footer p {
+        font-size: 0.875rem;
+        letter-spacing: 0.5rem;
+        line-height: 1.5;
+    }
+
+    footer span {
+        font-size: 0.75rem;
+        letter-spacing: 0.14rem;
+        padding: 0 0.5%;
+    }
+
+    .download {
+        padding: 1.5%;
+    }
+
+    .download .row {
+        padding-bottom: 1%;
+    }
+
+    .download a {
+        width: 8rem;
+        height: 8rem;
+        display: block;
+        margin: 5% 0;
+    }
+
+    .online-apply {
+        background-image: url(./img/btn_online_apply.png);
+        background-size: cover;
+        width: 14.375rem;
+        height: 3.5rem;
+        display: block;
+    }
+
+    .online-print {
+        background-image: url(./img/btn_print.png);
+        background-size: cover;
+        width: 14.375rem;
+        height: 3.5rem;
+        display: block;
+    }
+
+    .traffic {
+        height: 1.3rem;
+    }
+
+    .web-ls {
+        letter-spacing: 0.2rem;
+    }
+
+    .example {
+        width: 9rem;
+        height: 2.5rem;
+        display: block;
+        background-image: url(./img/link_example.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .example:hover {
+        background-image: url(./img/link_example_hover.png);
+    }
+
+    .scholarship {
+        width: 11.7rem;
+        height: 2.5rem;
+        display: block;
+        background-image: url(./img/link_money.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .scholarship:hover {
+        background-image: url(./img/link_money_hover.png);
+    }
+
+    .awardlist {
+        width: 9rem;
+        height: 2.5rem;
+        display: block;
+        background-image: url(./img/link_award.png);
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .awardlist:hover {
+        background-image: url(./img/link_award_hover.png);
+    }
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.table {
+    table-layout: fixed;
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+.light-blue {
+    color: #29abe2;
+}
+
+.red {
+    color: #ff1d25;
+}
+
+.light-yellow {
+    background-color: #f8f7ca;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.menu {
+    position: fixed;
+    right: 2%;
+    top: calc(50% - 337.33px/2);
+    z-index: 99;
+}
+
+.menu img {
+    width: 3.3rem;
+    transition: 0.3s;
+}
+
+.menu img:hover {
+    width: 3.7rem;
+}
+
+.menu div {
+    margin-bottom: 0.7rem;
+}
+
+.rule-content,
+.award-content,
+.table {
+    margin-top: 1%;
+}
+
+.row .btn {
+    margin-top: 5%;
+    transition: 0.3s;
+}
+
+.row .btn:hover {
+    margin-top: 6%;
+}
+
+.award-content p {
+    margin-bottom: 0;
+}
+
+.award-content .item {
+    margin-bottom: 0.4rem;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin: 4% 0 3% 0;
+}
+
+
+footer {
+    background-color: #f8f7ca;
+    padding: 1rem;
+}
+
+footer p {
+    margin-bottom: 0;
+}
