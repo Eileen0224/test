@@ -2,7 +2,7 @@ body {
     font-size: 0.75rem;
     font-family: 'Noto Sans TC', '微軟正黑體';
     color: #333333;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     background-color: #fcf9eb;
 }
 
@@ -173,7 +173,7 @@ footer span:nth-of-type(3) {
 }
 
 .example {
-    width: 8.3rem;
+    width: 9rem;
     height: 2.3rem;
     display: block;
     background-image: url(./img/link_example.png);
@@ -187,7 +187,7 @@ footer span:nth-of-type(3) {
 }
 
 .scholarship {
-    width: 10.8rem;
+    width: 12rem;
     height: 2.3rem;
     display: block;
     background-image: url(./img/link_money.png);
@@ -201,7 +201,7 @@ footer span:nth-of-type(3) {
 }
 
 .awardlist {
-    width: 8.3rem;
+    width: 9rem;
     height: 2.3rem;
     display: block;
     background-image: url(./img/link_award.png);
@@ -326,7 +326,7 @@ footer span:nth-of-type(3) {
     }
 
     .example {
-        width: 8.3rem;
+        width: 9rem;
         height: 2.3rem;
         display: block;
         background-image: url(./img/link_example.png);
@@ -339,7 +339,7 @@ footer span:nth-of-type(3) {
     }
 
     .scholarship {
-        width: 10.8rem;
+        width: 11.9rem;
         height: 2.3rem;
         display: block;
         background-image: url(./img/link_money.png);
@@ -352,7 +352,7 @@ footer span:nth-of-type(3) {
     }
 
     .awardlist {
-        width: 8.3rem;
+        width: 9rem;
         height: 2.3rem;
         display: block;
         background-image: url(./img/link_award.png);
@@ -463,7 +463,7 @@ footer span:nth-of-type(3) {
     }
 
     .example {
-        width: 9rem;
+        width: 9.8rem;
         height: 2.5rem;
         display: block;
         background-image: url(./img/link_example.png);
@@ -476,7 +476,7 @@ footer span:nth-of-type(3) {
     }
 
     .scholarship {
-        width: 11.7rem;
+        width: 13rem;
         height: 2.5rem;
         display: block;
         background-image: url(./img/link_money.png);
@@ -489,7 +489,7 @@ footer span:nth-of-type(3) {
     }
 
     .awardlist {
-        width: 9rem;
+        width: 9.8rem;
         height: 2.5rem;
         display: block;
         background-image: url(./img/link_award.png);
@@ -601,7 +601,7 @@ footer span:nth-of-type(3) {
     }
 
     .example {
-        width: 9rem;
+        width: 9.8rem;
         height: 2.5rem;
         display: block;
         background-image: url(./img/link_example.png);
@@ -614,7 +614,7 @@ footer span:nth-of-type(3) {
     }
 
     .scholarship {
-        width: 11.7rem;
+        width: 13rem;
         height: 2.5rem;
         display: block;
         background-image: url(./img/link_money.png);
@@ -627,7 +627,7 @@ footer span:nth-of-type(3) {
     }
 
     .awardlist {
-        width: 9rem;
+        width: 9.8rem;
         height: 2.5rem;
         display: block;
         background-image: url(./img/link_award.png);
