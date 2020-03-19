@@ -109,10 +109,10 @@ p {
     width: 100%;
 }
 
-#drone {
+/* #drone {
     width: 100vw;
     height: 100vh;
-}
+} */
 
 #japan {
     width: 100vw;
@@ -292,7 +292,7 @@ footer p {
     }
 
     .japan-project {
-        font-size: 0.8px;
+        font-size: 0.8rem;
     }
 
     #japan-phone h2 {
@@ -338,7 +338,7 @@ footer p {
     }
 
     .group-person-photo{
-        width: 60%;
+        width: 200px;
     }
 
     .group-person-title{
