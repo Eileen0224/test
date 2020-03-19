@@ -197,15 +197,6 @@ footer p {
     font-size: 0.875rem;
 }
 
-::-webkit-scrollbar {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 0.75em;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
 @media (max-width: 1199.98px) {
     h2 {
         font-size: 2rem;
