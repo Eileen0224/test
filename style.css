@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&display=swap');
+
+* {
+    font-family: 'Noto Sans TC', '思源黑體';
+}
+
+h2 {
+    font-size: 2.4rem;
+    letter-spacing: 10px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+p {
+    letter-spacing: 4px;
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+.bg-black {
+    background-color: #111111;
+}
+
+.bg-gray {
+    background-color: #1B1B1B;
+}
+
+.bg-golden {
+    background-color: #C89F62;
+}
+
+.text-golden {
+    color: #C89F62;
+}
+
+.text-yellow {
+    color: #FFF000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    letter-spacing: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #DCDCDC;
+}
+
+.navbar-default {
+    background-color: #11111100;
+}
+
+.navbar-fixed-top.scrolled {
+    opacity: .1;
+    transition: opacity 500ms linear;
+}
+
+.navbar-fixed-top.scrolled:hover{
+    background-color: #111111;
+    opacity: 1;
+    transition: opacity background-color 500ms linear;
+}
+
+#cover {
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+#cover img {
+    display: block;
+}
+
+#cover h3 {
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#cover-phone {
+    display: none !important;
+}
+
+#group-project figcaption {
+    font-size: 0.5rem;
+    letter-spacing: 0.6px;
+}
+
+.group-person-title {
+    width: 40px;
+}
+
+#group-person h5 {
+    display: inline-block;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+#group-person h5 span {
+    font-size: 1.5rem;
+}
+
+#group-person p {
+    letter-spacing: 1px;
+}
+
+.group-person-photo{
+    width: 100%;
+}
+
+#drone {
+    width: 100vw;
+    height: 100vh;
+}
+
+#japan {
+    width: 100vw;
+    height: 100vh;
+}
+
+#japan h2 {
+    line-height: 1.5;
+}
+
+#japan h5 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+
+.japan-content {
+    font-size: 1.25rem;
+}
+
+#book {
+    width: 100vw;
+    height: 100vh;
+}
+
+#book h3 {
+    letter-spacing: 6.5px;
+}
+
+.form-group {
+    letter-spacing: 3.75px;
+}
+
+.form-style {
+    background-color: transparent;
+    border-color: #C89F62;
+    height: calc(2.25rem + 4px);
+    border-width: 1.5px;
+    color: #C89F62;
+    letter-spacing: 3px;
+}
+
+.form-style:focus {
+    background-color: transparent;
+    color: #C89F62;
+    border-color: rgb(244, 198, 129);
+    box-shadow: 0 0 0 0.2rem rgba(200, 159, 98, 0.25);
+}
+
+.btn-style{
+    width: 100%;
+    background-color: #C89F62;
+    color: #111111;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 2;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(200, 159, 98, 0.25);
+}
+
+.btn-style:hover {
+    background-color: rgb(244, 198, 129);
+}
+
+#contact h3 {
+    letter-spacing: 6.5px;
+}
+
+#contact p {
+    line-height: 2;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+footer p {
+    letter-spacing: 3px;
+    font-size: 0.875rem;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 0.75em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1199.98px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    #group-project figcaption {
+        letter-spacing: -0.4px;
+    }
+
+    #group-person h5 {
+        font-size: 2rem;
+    }
+
+    #group-person h5 span {
+        font-size: 1.25rem;
+    }
+
+    #group-person p {
+        letter-spacing: 0.025rem;
+        font-size: 0.9rem;
+    }
+
+    #japan h2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    h2 {
+        font-size: 1.8rem;
+        letter-spacing: 4px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+    }
+
+    #cover {
+        display: none !important;
+    }
+
+    #cover-phone {
+        display: flex !important;
+        height: 100vh;
+        background-image: url(./img/bg-md.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    #cover-phone h3 {
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    #group-project figcaption {
+        letter-spacing: 1.5px;
+    }
+
+    .group-person-title{
+        width: 35px;
+    }
+
+    #group-person h5 {
+        font-size: 1.5rem;
+    }
+
+    #group-person h5 span{
+        font-size: 1rem;
+    }
+
+    .group-person-item {
+        padding: 0 8px;
+    }
+
+    #group-person p {
+        font-size: 0.75rem;
+        letter-spacing: -0.025rem;
+    }
+
+    #japan h2 {
+        font-size: 1.5rem;
+    }
+
+    #japan h5 {
+        font-size: 1.25rem;
+        letter-spacing: 4px;
+    }
+
+    .japan-content {
+        font-size: 1rem;
+    }
+
+    .japan-project {
+        font-size: 0.8rem;
+    }
+
+    #japan-phone h2 {
+        font-size: 1.25rem;
+    }
+
+    #japan-phone h5 {
+        letter-spacing: 3.5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: 2.5px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+
+    .navbar {
+        background-color: #111111;
+    }
+
+    .navbar-fixed-top.scrolled {
+        background-color: #111111;
+        opacity: 1;
+    }
+
+    #cover-phone img:first-child {
+        width: 95%;
+    }
+
+    #cover-phone img:nth-child(2) {
+        width: 60%;
+    }
+
+    #cover-phone h3 {
+        font-size: 1.25rem;
+        letter-spacing: 3px;
+    }
+
+    .group-person-photo{
+        width: 190px;
+        height: 238px;
+    }
+
+    .group-person-title{
+        width: 40px;
+    }
+
+    #group-person h5 {
+        font-size: 2.25rem;
+    }
+
+    #group-person h5 span {
+        font-size: 1.25rem;
+    }
+
+    #group-person p {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+
+    #book {
+        height: auto;
+    }
+
+    #book h3 {
+        text-align: center;
+    }
+
+    #contact h3 {
+        text-align: center;
+    }
+
+    #contact p {
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h2 {
+        line-height: 1.5;
+    }
+
+    #group-project figcaption {
+        letter-spacing: 0.5px;
+    }
+
+    .group-bg {
+        width: 100vw !important;
+        margin: 0 calc(-5% - 15px);
+    }
+
+    .carousel-inner {
+        width: 100vw !important;
+        margin: 0 calc(-5% - 15px);
+    }
+
+    .map {
+        height: 300px;
+        width: 100vw !important;
+        margin: 0 calc(-5% - 15px);
+    }
+}
