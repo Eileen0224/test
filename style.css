@@ -82,7 +82,7 @@ p {
     display: none !important;
 }
 
-#group-project figcaption {
+#group-project figcaption, .group-project-ps {
     font-size: 0.5rem;
     letter-spacing: 0.6px;
 }
@@ -202,7 +202,7 @@ footer p {
         font-size: 2rem;
     }
 
-    #group-project figcaption {
+    #group-project figcaption, .group-project-ps {
         letter-spacing: -0.4px;
     }
 
@@ -253,7 +253,7 @@ footer p {
         font-weight: 700;
     }
 
-    #group-project figcaption {
+    #group-project figcaption, .group-project-ps {
         letter-spacing: 1.5px;
     }
 
@@ -337,7 +337,7 @@ footer p {
         letter-spacing: 3px;
     }
 
-    .group-person-photo{
+    .group-person-photo {
         width: 190px;
         height: 238px;
     }
@@ -357,6 +357,10 @@ footer p {
     #group-person p {
         font-size: 1rem;
         letter-spacing: 0.1rem;
+    }
+
+    #group-person .group-person-company {
+        font-size: 0.9rem;
     }
 
     #book {
@@ -381,7 +385,7 @@ footer p {
         line-height: 1.5;
     }
 
-    #group-project figcaption {
+    #group-project figcaption, .group-project-ps {
         letter-spacing: 0.5px;
     }
 
