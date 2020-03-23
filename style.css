@@ -17,6 +17,11 @@ p {
     text-justify: inter-character;
 }
 
+#privacy .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .bg-black {
     background-color: #111111;
 }

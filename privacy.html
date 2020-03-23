@@ -9,7 +9,6 @@
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="bg-black text-white">
     <header class="navbar navbar-expand-md navbar-dark navbar-default fixed-top navbar-fixed-top">
         <div class="container">
@@ -56,6 +55,21 @@
             </div>
         </div>
     </div>
+    <!-- 電腦版側邊選單 -->
+    <div id="sidebar" class="d-none d-md-block">
+        <a href="tel:+886-3-3795858">
+            <img src="./img/sidebar-phone.png">
+        </a>
+        <a href="https://goo.gl/maps/Cu1DoQra4w88FWoV8" target="_blank" class="my-4">
+            <img src="./img/sidebar-map.png">
+        </a>
+        <a href="#book" class="my-4">
+            <img src="./img/sidebar-online.png">
+        </a>
+        <a href="https://www.facebook.com/%E7%A6%8F%E9%84%89%E8%87%B3%E7%BE%8E-102610968025228/" target="_blank">
+            <img src="./img//sidebar-fb.png">
+        </a>
+    </div>
     <!-- 手機版封面 -->
     <div id="cover-phone" class="d-flex align-items-center">
         <div class="container">
@@ -65,6 +79,25 @@
                 <h3>3公園3校園<span class="text-golden">｜</span>3-4房<span class="text-golden">｜</span>中空樓板</h3>
             </div>
         </div>
+    </div>
+    <!-- 手機版底部選單 -->
+    <div id="sidebar-phone" class="d-block d-md-none bg-gray d-flex justify-content-between">
+        <a href="tel:+886-3-3795858" class="py-1 px-2">
+            <img src="./img/call.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">來電洽詢</p>
+        </a>
+        <a href="https://goo.gl/maps/Cu1DoQra4w88FWoV8" target="_blank" class="py-1 px-2">
+            <img src="./img/pin.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">地圖導航</p>
+        </a>
+        <a href="#book" class="py-1 px-2">
+            <img src="./img/writing.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">線上預約</p>
+        </a>
+        <a href="https://www.facebook.com/%E7%A6%8F%E9%84%89%E8%87%B3%E7%BE%8E-102610968025228/" target="_blank" class="py-1 px-2">
+            <img src="./img/facebook.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">粉絲專頁</p>
+        </a>
     </div>
     <div id="privacy" class="py-5 bg-gray">
         <div class="row">
@@ -79,13 +112,14 @@
             </div>
         </div>
     </div>
-    <footer class="py-4">
+    <footer class="py-4 bg-black">
         <p class="text-center mb-0">
             <a href="./privacy.html" class="text-white">《隱私條款》</a>
             <br>
             © 2020 Copyright 福鄉至美
         </p>
     </footer>
+    <div id="tabbar" class="bg-gray d-block d-md-none"></div>
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
