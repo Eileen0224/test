@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福鄉至美-隱私條款</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black text-white">
+    <header class="navbar navbar-expand-md navbar-dark navbar-default fixed-top navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="#group-project">福鄉團隊</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="#drone">中路珍稀</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="#district">四大商圈</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="#japan-all">日系精工</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="javascript:void(0)">媒體報導</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="#book">歡迎預約</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 電腦版封面 -->
+    <div id="cover" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-column align-items-center offset-lg-4 mt-5">
+                    <img src="./img/discount.svg">
+                    <img src="./img/logo.png" width="40%" class="my-5">
+                    <h3>3公園3校園<span class="text-golden">｜</span>3-4房<span class="text-golden">｜</span>中空樓板</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 手機版封面 -->
+    <div id="cover-phone" class="d-flex align-items-center">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center mx-auto">
+                <img src="./img/discount.svg" width="75%">
+                <img src="./img/logo.png" width="40%" class="my-5 logo">
+                <h3>3公園3校園<span class="text-golden">｜</span>3-4房<span class="text-golden">｜</span>中空樓板</h3>
+            </div>
+        </div>
+    </div>
+    <div id="privacy" class="py-5 bg-gray">
+        <div class="row">
+            <div class="col-11 mx-auto">
+                <h3 class="text-center mb-5">隱私條款</h3>
+                <ol style="line-height: 2.5;letter-spacing: 2px;">
+                    <li>當您造訪本網站或使用本網站所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本網站不會將個人資料用於其他用途。
+                    </li>
+                    <li>本網站在您使用服務信箱、問卷調查等互動性功能時，會保留您所提供的姓名、電子郵件地址、聯絡方式及使用時間等。</li>
+                    <li>伏鄉至美將嚴謹保管您的個人資料，不會任意揭露或出售、交換、或轉讓您的任何非公開性資料予第三人，除非經由您的同意或法律之規定。</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <footer class="py-4">
+        <p class="text-center mb-0">
+            <a href="./privacy.html" class="text-white">《隱私條款》</a>
+            <br>
+            © 2020 Copyright 福鄉至美
+        </p>
+    </footer>
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <!-- 選單滾動切換色 -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>

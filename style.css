@@ -37,6 +37,10 @@ p {
     color: #FFF000;
 }
 
+.text-lightgolden {
+    color: #F4C681;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     letter-spacing: 5px;
@@ -62,7 +66,7 @@ p {
 }
 
 #cover {
-    background-image: url(./img/bg.png);
+    background-image: url(./img/bg2.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
@@ -80,6 +84,52 @@ p {
 
 #cover-phone {
     display: none !important;
+}
+
+#sidebar {
+    position: fixed;
+    right: 2%;
+    top: calc(50% - 337.33px/2);
+    z-index: 99;
+}
+
+#sidebar a {
+    display: block;
+}
+
+#sidebar img {
+    width: 3.3rem;
+    transition: 0.3s;
+}
+
+
+#sidebar img:hover {
+    width: 3.8rem;
+}
+
+#sidebar-phone {
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 49px;
+}
+
+#sidebar-phone img {
+    height: 40%;
+    margin: 0 auto;
+}
+
+#sidebar-phone a {
+    text-decoration: none;
+}
+
+#sidebar-phone p {
+    font-size: 0.625rem;
+}
+
+#tabbar {
+    height: 49px;
 }
 
 #group-project figcaption, .group-project-ps {
@@ -110,14 +160,10 @@ p {
 }
 
 #drone {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
-#japan {
-    width: 100vw;
-    height: 100vh;
-}
 
 #japan h2 {
     line-height: 1.5;
@@ -133,10 +179,6 @@ p {
     font-size: 1.25rem;
 }
 
-#book {
-    width: 100vw;
-    height: 100vh;
-}
 
 #book h3 {
     letter-spacing: 6.5px;
@@ -176,7 +218,7 @@ p {
 }
 
 .btn-style:hover {
-    background-color: rgb(244, 198, 129);
+    background-color: #f4c681;
 }
 
 #contact h3 {
@@ -242,7 +284,7 @@ footer p {
     #cover-phone {
         display: flex !important;
         height: 100vh;
-        background-image: url(./img/bg-md.png);
+        background-image: url(./img/bg-md2.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: bottom;
@@ -302,6 +344,11 @@ footer p {
     #japan-phone h5 {
         letter-spacing: 3.5px;
     }
+
+    #contact p {
+        font-size: 0.875px;
+        letter-spacing: 2.5px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -328,7 +375,7 @@ footer p {
         width: 95%;
     }
 
-    #cover-phone img:nth-child(2) {
+    #cover-phone img:nth-child(2), #cover-phone .container .logo {
         width: 60%;
     }
 

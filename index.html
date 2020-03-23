@@ -16,8 +16,7 @@
         })();
     </script>
 </head>
-
-<body class="bg-black text-white" style="height: 1000px;">
+<body class="bg-black text-white">
     <header class="navbar navbar-expand-md navbar-dark navbar-default fixed-top navbar-fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -52,7 +51,7 @@
         </div>
     </header>
     <!-- 電腦版封面 -->
-    <div id="cover" class="d-flex align-items-center">
+    <div id="cover" class="d-flex align-items-center bg-black">
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-column align-items-center offset-lg-4 mt-5">
@@ -63,17 +62,51 @@
             </div>
         </div>
     </div>
+    <!-- 電腦版側邊選單 -->
+    <div id="sidebar" class="d-none d-md-block">
+        <a href="tel:+886-3-3795858">
+            <img src="./img/sidebar-phone.png">
+        </a>
+        <a href="https://goo.gl/maps/Cu1DoQra4w88FWoV8" target="_blank" class="my-4">
+            <img src="./img/sidebar-map.png">
+        </a>
+        <a href="#book" class="my-4">
+            <img src="./img/sidebar-online.png">
+        </a>
+        <a href="https://www.facebook.com/%E7%A6%8F%E9%84%89%E8%87%B3%E7%BE%8E-102610968025228/" target="_blank">
+            <img src="./img//sidebar-fb.png">
+        </a>
+    </div>
     <!-- 手機版封面 -->
-    <div id="cover-phone" class="d-flex align-items-center">
+    <div id="cover-phone" class="d-flex align-items-center bg-black">
         <div class="container">
             <div class="d-flex flex-column align-items-center mx-auto">
                 <img src="./img/discount.svg" width="75%">
-                <img src="./img/logo.png" width="40%" class="my-5">
+                <img src="./img/logo.png" width="40%" class="my-5 logo">
                 <h3>3公園3校園<span class="text-golden">｜</span>3-4房<span class="text-golden">｜</span>中空樓板</h3>
             </div>
         </div>
     </div>
-    <div id="group-project" class="py-5">
+    <!-- 手機版底部選單 -->
+    <div id="sidebar-phone" class="d-block d-md-none bg-gray d-flex justify-content-between">
+        <a href="tel:+886-3-3795858" class="py-1 px-2">
+            <img src="./img/call.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">來電洽詢</p>
+        </a>
+        <a href="https://goo.gl/maps/Cu1DoQra4w88FWoV8" target="_blank" class="py-1 px-2">
+            <img src="./img/pin.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">地圖導航</p>
+        </a>
+        <a href="#book" class="py-1 px-2">
+            <img src="./img/writing.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">線上預約</p>
+        </a>
+        <a href="https://www.facebook.com/%E7%A6%8F%E9%84%89%E8%87%B3%E7%BE%8E-102610968025228/" target="_blank" class="py-1 px-2">
+            <img src="./img/facebook.svg" class="d-block my-1">
+            <p class="text-lightgolden text-center mb-0">粉絲專頁</p>
+        </a>
+    </div>
+    <div id="group-project" class="py-5 bg-black">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 col-lg-11 col-md-11 col-sm-9 col-11 mx-auto">
@@ -115,7 +148,7 @@
             </div>
         </div>
     </div>
-    <div id="group-person" class="py-4">
+    <div id="group-person" class="py-4 bg-black">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-11 mb-5 mx-auto">
@@ -207,11 +240,12 @@
         </script>
         <script type="text/javascript" src="skin.js">
         </script>
-        <div id="drone" class="py-3 d-flex align-items-center">
+        <div id="drone" class="pt-3 bg-black">
             <div id="mapeffect" style="width:100%;height:80%;">
                 <br>Loading...<br><br>
                 This content requires HTML5 with CSS3 3D Transforms or WebGL.
             </div>
+            <p class="text-center pt-4 d-block d-sm-none">◎實景空拍畫面可左右滑動或遠近縮放</p>
         </div>
         <script type="text/javascript">
             // create the panorama player with the container
@@ -228,7 +262,7 @@
         </noscript>
         <!-- Hack needed to hide the url bar on iOS 9, iPhone 5s -->
         <div style="width:1px;height:1px;"></div>
-    <div id="park" class="py-5">
+    <div id="park" class="py-5 bg-black">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 col-lg-12 col-md-11 col-sm-9 col-11 mx-auto">
@@ -282,7 +316,7 @@
             </div>
         </div>
     </div>
-    <div id="district" class="py-4">
+    <div id="district" class="py-4 bg-black">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 col-lg-12 col-md-11 col-sm-9 col-11 mx-auto">
@@ -330,7 +364,7 @@
             </div>
         </div>
     </div>
-    <div id="japan-all">
+    <div id="japan-all" class="bg-black">
         <!-- 電腦版-日系精工 -->
         <div id="japan" class="py-5 bg-gray d-none d-md-flex align-items-center">
             <div class="container">
@@ -382,12 +416,12 @@
             </div>
         </div>
     </div>
-    <div id="book" class="py-5 d-flex align-items-center">
+    <div id="book" class="py-5 d-flex align-items-center bg-black">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6 col-11 mx-auto mb-md-0 mb-5">
                     <img src="./img/discount.svg" class="b-blcok w-100 mb-md-5 mb-4">
-                    <img src="./img/information.svg" class="b-blcok w-100 mt-md-5 mt-4">
+                    <img src="./img/information.png" class="b-blcok w-100 mt-md-5 mt-4">
                 </div>
                 <div class="col-md-6 col-11 mx-auto">
                     <h3 class="text-golden mb-3">預約賞屋</h3>
@@ -412,7 +446,7 @@
             </div>
         </div>
     </div>
-    <div id="contact" class="py-md-5 pb-5 bg-gray">
+    <div id="contact" class="py-md-5 pb-5 bg-gray bg-black">
         <div class="container">
             <div class="row d-flex align-items-stretch">
                 <div class="col-md-6 col-11 mx-auto mb-md-0 mb-5">
@@ -443,13 +477,14 @@
             </div>
         </div>
     </div>
-    <footer class="py-4">
+    <footer class="py-4 bg-black">
         <p class="text-center mb-0">
-            《隱私條款》
+            <a href="./privacy.html" class="text-white">《隱私條款》</a>
             <br>
             © 2020 Copyright 福鄉至美
         </p>
     </footer>
+    <div id="tabbar" class="bg-gray d-block d-md-none"></div>
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -506,11 +541,11 @@
                     },
                     success: function (response) {
                         if (response == "成功") {
-                            alert("恭喜預約成功！");
+                            console.log("恭喜預約成功！");
                             document.querySelector('#inputName').value = "";
                             document.querySelector('#inputPhone').value = "";
                             document.querySelector('#inputContent').value = "";
-                            // location.href = "#";
+                            location.href = "./thanks.html";
                         } else {
                             console.log("雲端回傳失敗")
                         }
