@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>預約成功</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MC9BMVF');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="bg-black text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC9BMVF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="navbar navbar-expand-md navbar-dark navbar-default fixed-top navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.png" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="index.html#group-project">福鄉團隊</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="index.html#drone">中路珍稀</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="index.html#district">四大商圈</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="index.html#japan-all">日系精工</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="javascript:void(0)">媒體報導</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="index.html#book">歡迎預約</a>
+                    </li>
+                    <li class="nav-item mx-2 text-center">
+                        <a class="nav-link" href="index.html">回到首頁</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 電腦版封面 -->
+    <div id="cover" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-column align-items-center offset-lg-5 mt-5">
+                    <img src="./img/logo.png" width="40%" class="my-5">
+                    <h3 class="text-center" style="line-height: 2;">
+                        感謝您的預約！<br>
+                        我們業務代表將與您聯繫:)
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 手機版封面 -->
+    <div id="cover-phone" class="d-flex align-items-center">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center mx-auto">
+                <img src="./img/logo.png" width="40%" class="mb-5 logo">
+                <h3 class="text-center" style="line-height: 2;font-size: 1.5rem;">
+                    感謝您的預約！<br>
+                    我們業務代表將與您聯繫:)
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <!-- 選單滾動切換色 -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
