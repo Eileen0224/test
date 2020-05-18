@@ -180,12 +180,21 @@ p {
     letter-spacing: 7px;
 }
 
-.japan-content {
+.japan-content, #media ul li {
     font-size: 1.25rem;
 }
 
+#media ul {
+    padding-inline-start: 0px;
+}
 
-#book h3 {
+#media ul li {
+    list-style-type: none;
+    line-height: 2.5;
+    padding-inline-start: 0px;
+}
+
+#book h3, #media h2 {
     letter-spacing: 6.5px;
 }
 
@@ -334,7 +343,7 @@ footer p {
         letter-spacing: 4px;
     }
 
-    .japan-content {
+    .japan-content, #media ul li {
         font-size: 1rem;
     }
 
@@ -415,12 +424,18 @@ footer p {
         font-size: 0.9rem;
     }
 
+    #media ul li {
+        line-height: 2;
+    }
+
     #book {
         height: auto;
     }
 
-    #book h3 {
+    #book h3, #media h2 {
         text-align: center;
+        font-size: 28px;
+        font-weight: 900;
     }
 
     #contact h3 {
