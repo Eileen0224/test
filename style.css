@@ -11,6 +11,10 @@ h2 {
     margin-bottom: 0;
 }
 
+#cover h2 {
+    font-size: 4rem;
+}
+
 p {
     letter-spacing: 4px;
     text-align: justify;
@@ -36,6 +40,10 @@ p {
 
 .text-golden {
     color: #C89F62;
+}
+
+.text-red {
+    color: #E50012;
 }
 
 .text-yellow {
@@ -71,7 +79,7 @@ p {
 }
 
 #cover {
-    background-image: url(./img/bg2.png);
+    background-image: url(./img/bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
@@ -81,10 +89,24 @@ p {
     display: block;
 }
 
+#cover img:first-child {
+    width: 50%;
+}
+
+#cover img:nth-child(4) {
+    width: 35%;
+}
+
 #cover h3 {
-    letter-spacing: 5px;
+    letter-spacing: 4.5px;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+
+#cover h4 {
+    letter-spacing: 7px;
+    font-weight: 700;
+    font-size: 1.75rem;
 }
 
 #cover-phone {
@@ -304,9 +326,30 @@ footer p {
         background-position: bottom;
     }
 
-    #cover-phone h3 {
+    #cover-phone h2 {
         letter-spacing: 5px;
         font-weight: 700;
+        font-size: 4rem;
+    }
+
+    #cover-phone img:first-child {
+        width: 50%;
+    }
+
+    #cover-phone img:nth-child(4) {
+        width: 40%;
+    }
+
+    #cover-phone h3 {
+        letter-spacing: 8px;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    #cover-phone h4 {
+        letter-spacing: 8px;
+        font-weight: 700;
+        font-size: 1.5rem;
     }
 
     #group-project figcaption, .group-project-ps {
@@ -386,16 +429,23 @@ footer p {
     }
 
     #cover-phone img:first-child {
-        width: 95%;
+        width: 70%;
     }
 
-    #cover-phone img:nth-child(2), #cover-phone .container .logo {
+    #cover-phone img:nth-child(4) {
         width: 60%;
     }
 
     #cover-phone h3 {
-        font-size: 1.25rem;
-        letter-spacing: 3px;
+        letter-spacing: 12px;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    #cover-phone h4 {
+        letter-spacing: 7px;
+        font-weight: 700;
+        font-size: 1.5rem;
     }
 
     .group-person-photo {
@@ -451,6 +501,30 @@ footer p {
 @media (max-width: 575.98px) {
     h2 {
         line-height: 1.5;
+    }
+
+    #cover-phone img:first-child {
+        width: 78%;
+    }
+
+    #cover-phone img:nth-child(4) {
+        width: 60%;
+    }
+
+    #cover-phone h2 {
+        font-size: 3.25rem;
+    }
+
+    #cover-phone h3 {
+        letter-spacing: 8px;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    #cover-phone h4 {
+        letter-spacing: 4px;
+        font-weight: 700;
+        font-size: 1.5rem;
     }
 
     #group-project figcaption, .group-project-ps {
